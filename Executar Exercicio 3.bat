@@ -1,0 +1,1 @@
+java -jar Exercicio3.jar

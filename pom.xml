@@ -3,6 +3,18 @@
   <groupId>Tinnova</groupId>
   <artifactId>Tinnova</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.junit</groupId>
+				<artifactId>junit-bom</artifactId>
+				<version>5.7.2</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
   <dependencies>
 	<dependency>
 		<groupId>org.projectlombok</groupId>
@@ -51,6 +63,19 @@
 	    <artifactId>jaxb-runtime</artifactId>
 	    <version>2.3.2</version>
 	</dependency>
+	<!-- exclude junit 4 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+	    <version>2.5.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.4.2</version>
+            <scope>test</scope>
+        </dependency>
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
