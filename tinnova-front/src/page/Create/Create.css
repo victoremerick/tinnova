@@ -1,0 +1,30 @@
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+
+form > div label{
+  width: 150px;
+  display: inline-block;
+}
+
+form > div input{
+  min-width: 200px;
+  display: inline-block;
+}
+
+form > div .button{
+  margin-top: 10px;
+  width: 100px;
+  padding: 5px;
+  background: rgb(5, 133, 5);
+  color: white;
+  display: inline-block;
+  transition: background ease .5s;
+}
+
+form > div .button:hover{
+  background: rgb(40, 173, 40);
+}

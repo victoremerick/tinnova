@@ -1,0 +1,12 @@
+header input{
+  height: 40px;
+  font-size: larger;
+  align-self: center;
+  width: 70%;
+  padding: 0px 20px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #999;
+  color: white;
+  outline: none;
+}

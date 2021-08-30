@@ -8,6 +8,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Lob;
 import javax.persistence.Table;
 
 import org.hibernate.annotations.DynamicUpdate;
@@ -37,6 +38,7 @@ public class Veiculo implements Serializable{
 	@Column(name="ANO")
 	private Integer ano;
 	
+	@Lob
 	@Column(name="DESCRICAO")
 	private String descricao;
 	

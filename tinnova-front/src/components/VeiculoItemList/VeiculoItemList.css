@@ -1,0 +1,96 @@
+li{
+  width: calc(100% - 20px);
+  display: grid;
+  grid-template-columns: 30% 30% 20% 20%;
+  grid-template-rows: 40px 83px;
+  grid-template-areas: "veiculo veiculo ano acoes" "descricao descricao vendido acoes";
+  background: rgb(179, 179, 179);
+  margin: 10px 0px;
+  padding: 10px;
+  transition: box-shadow ease .5s;
+}
+
+li:hover{
+  box-shadow: 0px 0px 5px rgba(0,0,0,.3);
+}
+
+li .veiculo{
+  grid-area: veiculo;
+  text-align: left;
+  font-size: larger;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+li .marca{
+  grid-area: marca;
+  text-align: left;
+  font-size: larger;
+  padding: 5px 10px;
+}
+
+li .ano{
+  grid-area: ano;
+  text-align: left;
+  font-size: larger;
+  padding: 5px 10px;
+}
+
+li .vendido{
+  grid-area: vendido;
+  text-align: left;
+  font-size: medium;
+  padding: 5px 10px;
+}
+
+li .descricao{
+  grid-area: descricao;
+  text-align: left;
+  font-size: medium;
+  padding: 5px 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+li .acoes{
+  grid-area: acoes;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+li .acoes *{
+  margin: 5px;
+  padding: 5px;
+  color: white;
+}
+
+li .acoes .acaoeditar{
+  background: rgb(8, 70, 141);
+  cursor: pointer;
+  transition: background ease .5s;
+}
+
+li .acoes .acaoeditar:hover{
+  background: rgb(8, 105, 216);
+}
+
+li .acoes .acaoapagar{
+  background: rgb(209, 55, 55);
+  cursor: pointer;
+  transition: background ease .5s;
+}
+
+li .acoes .acaoapagar:hover{
+  background: rgb(231, 103, 103);
+}
+
+li .acoes .acaodetalhar{
+  background: rgb(28, 158, 23);
+  cursor: pointer;
+  transition: background ease .5s;
+}
+
+li .acoes .acaodetalhar:hover{
+  background: rgb(51, 175, 46);
+}

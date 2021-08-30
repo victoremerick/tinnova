@@ -39,14 +39,14 @@ public class VeiculoProvider implements VeiculoGateway {
 
 	@Override
 	public Veiculo save(UUID id, Veiculo veiculo) {
-		veiculo = mergeVeiculo(repository.getById(id), veiculo);
+		veiculo = mergeVeiculo(repository.findById(id).get(), veiculo);
 		return repository.save(veiculo);
 		
 	}
 
 	@Override
 	public Veiculo update(UUID id, Veiculo veiculo) {
-		veiculo = mergeVeiculo(repository.getById(id), veiculo);
+		veiculo = mergeVeiculo(repository.findById(id).get(), veiculo);
 		veiculo.setUpdated(ZonedDateTime.now());
 		return repository.save(veiculo);
 		
@@ -63,6 +63,7 @@ public class VeiculoProvider implements VeiculoGateway {
 		fromDatabase.setMarca(fromRequest.getMarca() == null ? fromDatabase.getMarca(): fromRequest.getMarca());
 		fromDatabase.setVeiculo(fromRequest.getVeiculo() == null ? fromDatabase.getVeiculo(): fromRequest.getVeiculo());
 		fromDatabase.setAno(fromRequest.getAno() == null ? fromDatabase.getAno(): fromRequest.getAno());
+		fromDatabase.setVendido(fromRequest.isVendido());
 		return fromDatabase;
 	}
 

@@ -1,0 +1,179 @@
+{
+	"info": {
+		"_postman_id": "7fa161d2-0c7d-4833-a1bf-739fb9a6bd06",
+		"name": "Prova Tinnova",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Example Veiculo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/veiculos/example",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"veiculos",
+						"example"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Veiculos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/veiculos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"veiculos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find Veiculos By q",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/veiculos?q=t",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"veiculos"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "t"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Detail Veiculo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/veiculos/0c0fac14-6d8d-4232-9ef5-a123481bda17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"veiculos",
+						"0c0fac14-6d8d-4232-9ef5-a123481bda17"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Veiculo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": null,\r\n    \"veiculo\": \"Corsa\",\r\n    \"marca\": \"Chevrolet\",\r\n    \"ano\": 2020,\r\n    \"descricao\": \"Descricao\",\r\n    \"vendido\": true,\r\n    \"created\": \"2021-08-29T10:18:12.8177027-03:00\",\r\n    \"updated\": \"2021-08-29T10:18:12.8177027-03:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/veiculos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"veiculos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Veiculo",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"0c0fac14-6d8d-4232-9ef5-a123481bda17\",\r\n    \"veiculo\": \"Corsa\",\r\n    \"marca\": \"Chevrolet\",\r\n    \"ano\": 2020,\r\n    \"descricao\": \"Descricao\",\r\n    \"vendido\": true,\r\n    \"created\": \"2021-08-29T10:18:12.8177027-03:00\",\r\n    \"updated\": \"2021-08-29T10:18:12.8177027-03:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/veiculos/0c0fac14-6d8d-4232-9ef5-a123481bda17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"veiculos",
+						"0c0fac14-6d8d-4232-9ef5-a123481bda17"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Veiculo Partially",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"veiculo\": \"Gol\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/veiculos/0c0fac14-6d8d-4232-9ef5-a123481bda17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"veiculos",
+						"0c0fac14-6d8d-4232-9ef5-a123481bda17"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

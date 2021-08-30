@@ -1,10 +1,10 @@
 INSERT INTO "PUBLIC"."VEICULO" VALUES
-(X'0c0fac146d8d42329ef5a123481bda17', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Descricao', 'Volkswagen', TIMESTAMP '2021-08-29 10:18:12.817703', 'Nivus', FALSE),
-(X'26e7139d149944268c07b47ebb365399', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Descricao', 'Volkswagen', TIMESTAMP '2021-08-29 10:18:12.817703', 'Virtus', TRUE),
-(X'a1f6074a1fa74849822bae7756184b69', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Descricao', 'Jeep', TIMESTAMP '2021-08-29 10:18:12.817703', 'Compass', TRUE),
-(X'8e5ab8eadacb41cda241d569e971c18c', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Descricao', 'Jeep', TIMESTAMP '2021-08-29 10:18:12.817703', 'Commander', TRUE),
-(X'cbf89ef624c14e0bb2c8e92d121b924b', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Descricao', 'Fiat', TIMESTAMP '2021-08-29 10:18:12.817703', 'Mobi', TRUE),
-(X'a86f70f859784d2f843fb7de0f76c8ac', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Descricao', 'Toyota', TIMESTAMP '2021-08-29 10:18:12.817703', 'Corolla', TRUE),
-(X'acd72fb084094219b2586c6d9bbc2bab', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Descricao', 'Honda', TIMESTAMP '2021-08-29 10:18:12.817703', 'Fit', TRUE),
-(X'0c468c153b7046418e18e44fee8ce022', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Descricao', 'Mitsubish', TIMESTAMP '2021-08-29 10:18:12.817703', 'Lancer', TRUE),
-(X'f7e768d747a4487ab8eaa960a9aff41c', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Descricao', 'Chevrolet', TIMESTAMP '2021-08-29 10:18:12.817703', 'Corsa', TRUE);
+(X'0c0fac146d8d42329ef5a123481bda17', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Carro topzera 1.0 turbo', 'Volkswagen', TIMESTAMP '2021-08-29 10:18:12.817703', 'Nivus', FALSE),
+(X'26e7139d149944268c07b47ebb365399', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Carro muito bom pra carregar tudo quanto e tralha', 'Volkswagen', TIMESTAMP '2021-08-29 10:18:12.817703', 'Virtus', TRUE),
+(X'a1f6074a1fa74849822bae7756184b69', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Carro super confortavel e de boa dirigibilidade', 'Jeep', TIMESTAMP '2021-08-29 10:18:12.817703', 'Compass', TRUE),
+(X'8e5ab8eadacb41cda241d569e971c18c', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Carro para carregar voce e duas familias de tao grande', 'Jeep', TIMESTAMP '2021-08-29 10:18:12.817703', 'Commander', TRUE),
+(X'cbf89ef624c14e0bb2c8e92d121b924b', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Carro economico ja que a gasolina ta 7 reais', 'Fiat', TIMESTAMP '2021-08-29 10:18:12.817703', 'Mobi', TRUE),
+(X'a86f70f859784d2f843fb7de0f76c8ac', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Carro que todo tiozao quer e tem', 'Toyota', TIMESTAMP '2021-08-29 10:18:12.817703', 'Corolla', TRUE),
+(X'acd72fb084094219b2586c6d9bbc2bab', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Economia com qualidade, desde que a manutencao esteja em dia', 'Honda', TIMESTAMP '2021-08-29 10:18:12.817703', 'Fit', TRUE),
+(X'0c468c153b7046418e18e44fee8ce022', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Carro criado para off-road com seu 4x4 2.0 turbo', 'Mitsubish', TIMESTAMP '2021-08-29 10:18:12.817703', 'Lancer', TRUE),
+(X'f7e768d747a4487ab8eaa960a9aff41c', 2020, TIMESTAMP '2021-08-29 10:18:12.817703', 'Carro pequeno antigo e super bom', 'Chevrolet', TIMESTAMP '2021-08-29 10:18:12.817703', 'Corsa', TRUE);

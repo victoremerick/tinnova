@@ -1,0 +1,14 @@
+ul{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+  margin: 20px;
+  padding: 10px;
+  background: rgb(230, 230, 230);
+}

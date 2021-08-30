@@ -1,0 +1,6 @@
+section{
+  width: 100%;
+  min-height: calc(100% - 250px);
+  background: white;
+  display: block;
+}
